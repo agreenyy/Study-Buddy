@@ -17,7 +17,7 @@ Builder.load_string("""
         spacing: 10
         Button:
             text: "TIMETABLE"
-            font_size: 31
+            font_size: 30
             background_color: (1, 0.2, 0, 0.4)
             size_hint: 1, 1
             on_press: root.manager.current = "timetable"
